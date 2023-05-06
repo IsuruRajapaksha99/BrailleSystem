@@ -17,6 +17,7 @@ namespace BraileCal
         protected void Button_Click(object sender, EventArgs e)
         {
             ServiceReference1.WebService1SoapClient client = new ServiceReference1.WebService1SoapClient();
+            
             double Result = client.calculateCircumference(Convert.ToDouble(circlebox.Text));
             double Result1 = client.calculateRectanglePerimeter(Convert.ToDouble(rectLength.Text), Convert.ToDouble(rectBreadth.Text));
             double Result2 = client.calculateTrianglePerimeter(Convert.ToDouble(side1Box.Text), Convert.ToDouble(side2Box.Text), Convert.ToDouble(side3Box.Text));
@@ -33,7 +34,6 @@ namespace BraileCal
             Label2.Text = dot2.ToString();
             Label3.Text = dot3.ToString();
 
-            
 
         }
     }

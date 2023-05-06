@@ -88,7 +88,7 @@ label {
                     <td class="auto-style1"> 
                         <b>To calculate circumference enter</b></td>
                     <td>
-                        Radius<asp:TextBox ID="circlebox" runat="server"></asp:TextBox>
+                        Radius<asp:TextBox ID="circlebox" runat="server" value="0"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -96,10 +96,10 @@ label {
                         <b>To calculate perimeter of a rectangle enter </b>
                     </td>
                     <td>
-                        Length <asp:TextBox ID="rectLength" runat="server" Width="127px"></asp:TextBox>
+                        Length <asp:TextBox ID="rectLength" runat="server" Width="127px" value="0"></asp:TextBox>
                     </td>
                     <td>
-                        Breadth <asp:TextBox ID="rectBreadth" runat="server"></asp:TextBox>
+                        Breadth <asp:TextBox ID="rectBreadth" runat="server" value="0"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -107,13 +107,13 @@ label {
                         <b>To calculate perimeter of a traingle enter </b>
                     </td>
                     <td>
-                        Side1 <asp:TextBox ID="side1Box" runat="server"></asp:TextBox>
+                        Side1 <asp:TextBox ID="side1Box" runat="server" value="0"></asp:TextBox>
                     </td>
                     <td>
-                        Side2 <asp:TextBox ID="side2Box" runat="server"></asp:TextBox>
+                        Side2 <asp:TextBox ID="side2Box" runat="server" value="0"></asp:TextBox>
                     </td>
                      <td>
-                        Side3 <asp:TextBox ID="side3Box" runat="server"></asp:TextBox>
+                        Side3 <asp:TextBox ID="side3Box" runat="server" value="0"></asp:TextBox>
                     </td>
                 </tr>
                 <tr> 
